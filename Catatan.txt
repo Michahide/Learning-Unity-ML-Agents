@@ -1,0 +1,11 @@
+py -m venv name_venv --> name_venv diganti sesuai dengan mau dinamakan apa
+
+py -m venv venv
+venv\scripts\activate
+
+py -m pip install --upgrade pip
+pip install mlagents
+mlagents-learn -h
+pip install torch torchvision torchaudio
+pip install protobuf==3.20.3
+pip install onnx

@@ -1,0 +1,29 @@
+{
+    "Move To Agent": {
+        "checkpoints": [
+            {
+                "steps": 276394,
+                "file_path": "results\\ppo\\Move To Agent\\Move To Agent-276394.onnx",
+                "reward": 10.0,
+                "creation_time": 1708698787.5868552,
+                "auxillary_file_paths": [
+                    "results\\ppo\\Move To Agent\\Move To Agent-276394.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 276394,
+            "file_path": "results\\ppo\\Move To Agent.onnx",
+            "reward": 10.0,
+            "creation_time": 1708698787.5868552,
+            "auxillary_file_paths": [
+                "results\\ppo\\Move To Agent\\Move To Agent-276394.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.0+cpu"
+    }
+}
