@@ -9,10 +9,10 @@ py -m venv venv
 venv\scripts\activate
 py -m pip install --upgrade pip
 pip install mlagents
-mlagents-learn -h
 pip install torch torchvision torchaudio
 pip install protobuf==3.20.3
 pip install onnx
+mlagents-learn -h
 ```
 
 3. After everything has been installed, at virtual environment, run this command with format mlagents-learn --run-id="Name ML Agents Learn Process", for example:
